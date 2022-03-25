@@ -1,6 +1,6 @@
 ### Links
 
-- Solution URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-landing-page-with-grid-media-queries-SJ6iVUiM5]
 - Live Site URL: [https://ericl81.github.io/FEM-Huddle_landing_page/]
 
 # Frontend Mentor - Huddle landing page with single introductory section
