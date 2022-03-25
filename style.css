@@ -1,8 +1,113 @@
-.attribution {
-    font-size: 11px;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --openSans: 'Open Sans', sans-serif;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: hsl(257, 40%, 49%);
+}
+
+body {
+    background: url('./images/bg-mobile.svg');
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    font-family: var(--openSans);
+
+}
+
+.container {
+    width: 90%;
+}
+
+.header {
+    margin-top: 1.75rem;
+    padding: 0 1rem;
+}
+
+.header img {
+    width: 45%;
+}
+
+.illustration {
+    margin-top: 4rem;
+    padding: 0 1rem;
+
+}
+
+.illustration img {
+    width: 100%;
+}
+
+.build-the-community {
+    margin-top: 2.75rem;
+    text-align: center;
+    padding: 0 1rem;
+    color: white;
+}
+
+.build-the-community h1 {
+    font-family: var(--poppins);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+}
+
+.build-the-community p {
+    font-weight: 400;
+    margin: .75rem 0;
+    line-height: 1.5rem;
+}
+
+.build-the-community button {
+    border: none;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    border-radius: 1.5rem;
+    padding: .75rem 5rem;
+    margin-top: .75rem;
+}
+
+.build-the-community button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    box-shadow: 0px 5px 8px hsla(257, 74%, 33%, 0.767);
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.fab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div i {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 0 .25rem;
+    color: #fff;
+
+}
+
+footer i:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+
 }
